@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Lambfield</title>
+    <link rel="icon" href="img/favIcon.png">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="headerWrapper">
+        <img id="outsideCloud" src="img/cloud.png" alt="Cloud1">
+
+        <header>
+            <div id="banner">
+                <img id="middleTowers" src="img/mid.png" alt="middleTowers">
+                <img id="dynamicLines" src="img/dynamicLines.png" alt="dynamicLines">
+                <img id="cloudBanner" src="img/cloud.png" alt="Cloud2">
+            </div>
+            <img src="img/front.png" alt="frontTowers">
+
+            <div id="burgerMenu">
+                <img src="img/burguerTop.png" alt="burguerTop">
+                <img src="img/burguerMiddle.png" alt="burguerMiddle">
+                <img src="img/burguerBottom.png" alt="burguerBottom">
+            </div>
+        </header>
+    </div>
+
+    <img id="NewLambfield" class="hover1" src="img/logo.png" alt="NewLambfield_Logo">
+
+
+    <main>
+        <aside>
+            <div class="scrollableContent">
+                <figure>
+                    <img id="marker" src="img/marker_0.png" alt="marker0">
+                    <img id="polaroid" class="hover1" src="img/polaroid3.png" alt="polaroid3">
+                </figure>
+                
+                <nav>
+                    <a class="button" href="index.html"> <img src="img/marker_1.png" alt="marker_1"> </a>
+                    <a class="button" href="about.html"> <img src="img/marker_2.png" alt="marker_2"> </a>
+                    <a class="button sel" href="contact.html"> <img src="img/marker_3.png" alt="marker_3"> </a>
+                </nav>
+            </div>
+        </aside>
+
+        <article>
+            <h1>Tell me your Stories!</h1>
+            <form action="#" method="post">
+                <fieldset>
+                    <div class="inputArea">
+                        <label for="idName">Name:</label>
+                        <input type="text" name="name" id="idName">
+                    </div>
+                    <div class="inputArea">
+                        <label for="idTopic">Topic:</label>
+                        <select name="topic" id="idTopic">
+                            <option value="life">Life</option>
+                            <option value="person">Person</option>
+                            <option value="paranormal">Paranormal</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="inputArea">
+                        <label for="idStory">Story: </label>
+                        <textarea name="story" id="idStory" required></textarea>
+                    </div>
+                </fieldset>
+                
+                <div id="submitButtons">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </article>
+    </main>
+
+    <script src="js/burger.js"></script>
+</body>
+</html>

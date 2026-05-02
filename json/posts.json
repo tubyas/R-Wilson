@@ -1,0 +1,16 @@
+[
+    {
+        "href": "post1.html",
+        "imgSrc": "img/stamp1_dither.png",
+        "title": "Welcome!",
+        "date": "05/09/1999",
+        "desc": "\"The city where you reach your dreams and live experiences like nowhere\" or so they said..."
+    },
+    {
+        "href": "post2.html",
+        "imgSrc": "img/stamp2_dither.png",
+        "title": "Sciurus",
+        "date": "25/09/1999",
+        "desc": "I was staying at this friend's house in Saint Sciuris, making up for lost time. He was acting beyond freakish..."
+    }
+]
